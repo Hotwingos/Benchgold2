@@ -15,7 +15,7 @@
 #app-section.active{display:block !important}
 
 /* NAV GLOBALE */
-.global-nav{background:#ffffff;border-bottom:1px solid #e8e7e3;position:sticky;top:0;z-index:200;font-family:'Jost',sans-serif}  
+.global-nav{background:transparent;border-bottom:1px solid #e8e7e3;position:sticky;top:0;z-index:200;font-family:'Jost',sans-serif}  
 .gn-inner{max-width:900px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:60px}
 .gn-brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:20px;font-weight:400;letter-spacing:3px;text-transform:uppercase;color:#1a1a18;cursor:pointer}
 .gn-brand span{color:#c9a84c}
@@ -321,7 +321,7 @@ body{font-family:var(--font);background:var(--fond);color:var(--noir);font-weigh
 
 <nav class="global-nav">
   <div class="gn-inner">
-    <div class="gn-brand" onclick="showLanding()"><img src="logo.png" alt="BenchGold" style="height:36px;object-fit:contain"/></div>
+    <div class="gn-brand" onclick="showLanding()"><img src="logo.png" alt="BenchGold" style="height:44px;object-fit:contain"/></div>
     <div class="gn-links">
       <button class="gn-link" onclick="showLanding()">Accueil</button>
       <button class="gn-link" onclick="document.getElementById('plans-section')&&showLanding(()=>setTimeout(()=>document.getElementById('plans-section').scrollIntoView({behavior:'smooth'}),100))">Tarifs</button>
